@@ -1,0 +1,246 @@
+.artMainCon {
+    padding: 15px;
+    background: #fff;
+    border-top: 4px solid #783818;
+    box-shadow: 1px 1px 6px 1px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 1px 6px 1px rgba(0,0,0,.5);
+    -moz-shadow: 1px 1px 6px 1px rgba(0,0,0,.5);
+    z-index: 5002;
+    clear: both;
+}
+
+.artMainCon::before,.artMainCon::after {
+    content: "";
+    display: table;
+}
+
+.section::before,.section::after {
+    content: "";
+    display: table;
+}
+
+.artMainCon h1 {
+    font-size: 24px;
+    font-size: 2.4rem;
+    line-height: 1;
+}
+
+.artMainCon h2 {
+    font-size: 20px;
+    font-size: 2.0rem;
+    line-height: 1;
+}
+
+.artMainCon h3 {
+    font-size: 16px;
+    font-size: 1.6rem;
+    line-height: 1;
+}
+
+.artMainCon p,.artMainCon .Text {
+    font-size: 15px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.artMainCon .section {
+    margin-bottom: 18px;
+    clear: both;
+}
+
+.artMainCon ul {
+    list-style: disc outside;
+    padding-left: 20px;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+
+.artMainCon li {
+    margin-bottom: 8px;
+}
+
+.artMainCon ul.OneimageOne,.artMainCon ul.Img2Sec,.artMainCon ul.Img3Sec,.artMainCon ul.headImg,.artMainCon ul.ImageOne,.artMainCon ul.oringinalImage,.artMainCon .OneimageOne ul,.artMainCon .Img2Sec ul,.artMainCon .Img3Sec ul,.artMainCon .headImg ul,.artMainCon .ImageOne ul,.artMainCon .oringinalImage ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.artMainCon ul.OneimageOne li,.artMainCon ul.Img2Sec li,.artMainCon ul.Img3Sec li,.artMainCon ul.headImg li,.artMainCon ul.ImageOne li,.artMainCon ul.oringinalImage li,.artMainCon .OneimageOne ul li,.artMainCon .Img2Sec ul li,.artMainCon .Img3Sec ul li,.artMainCon .headImg ul li,.artMainCon .ImageOne ul li,.artMainCon .oringinalImage ul li,.artMainCon .Img3unit ul li {
+    margin-bottom: 0;
+}
+
+.pdf,h1,h2,.headImg,.Text {
+    width: 100%;
+}
+
+.pdf {
+    float: left;
+}
+
+.pdf_download {
+    margin: 5px 15px 5px 0;
+    float: left;
+}
+
+.artMainCon table {
+    width: 526px;
+    font-size: 15px;
+   
+    text-align: left;
+    margin-left: 20px;
+}
+
+.artMainCon table tbody tr td,.artMainCon table tbody tr th {
+    padding: 4px;
+    font-size: 15px;
+    
+}
+
+.headImg img {
+    border: 4px solid white!important;
+    margin: -4px;
+    -webkit-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    -moz-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    box-shadow: 0 0 6px rgba(50,50,50,0.3);
+}
+
+.leftimg {
+    margin-bottom: 10px;
+}
+
+.leftimg img {
+    border: 4px solid white!important;
+    margin: -4px;
+    -webkit-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    -moz-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    box-shadow: 0 0 6px rgba(50,50,50,0.3);
+}
+
+.Imgtxt {
+    clear: both;
+}
+
+.linkImage,.oringinalImage {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.linkImage img,.oringinalImage img {
+    border: 4px solid white!important;
+    margin: -4px;
+    -webkit-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    -moz-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    box-shadow: 0 0 6px rgba(50,50,50,0.3);
+}
+
+.oringinalImage {
+    width: 100%;
+}
+
+ul.oringinalImage {
+    list-style: none!important;
+    padding-left: 0!important;
+}
+
+.OneimageOne .dn img {
+    width: 100%;
+    border: 4px solid white!important;
+    margin: -4px;
+    -webkit-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    -moz-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    box-shadow: 0 0 6px rgba(50,50,50,0.3);
+}
+
+.linkImage {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto 0;
+}
+
+.linkImage img {
+    border: 4px solid white!important;
+    margin: -4px;
+    -webkit-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    -moz-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    box-shadow: 0 0 6px rgba(50,50,50,0.3);
+}
+
+.Img2Sec {
+    width: 100%;
+    float: left;
+    border: 4px solid white!important;
+    margin: -4px;
+    -webkit-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    -moz-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    box-shadow: 0 0 6px rgba(50,50,50,0.3);
+}
+
+.Img2unit {
+    float: left;
+    width: 50%;
+}
+
+.Img2unit .TwoimageOne {
+    margin-right: 3px;
+}
+
+.Img2unit .TwoimageTwo {
+    margin-left: 3px;
+}
+
+.Img2unit .TwoimageOne img,.Img2unit .TwoimageTwo img {
+    width: 100%;
+    display: block;
+}
+
+.Img3Sec {
+    width: 100%;
+    float: left;
+    border: 4px solid white!important;
+    margin: -4px;
+    -webkit-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    -moz-box-shadow: 0 0 6px rgba(50,50,50,0.3);
+    box-shadow: 0 0 6px rgba(50,50,50,0.3);
+}
+
+.Img3unit {
+    float: left;
+    width: 33.3%;
+}
+
+.Img3unit .ThreeimageOne {
+    margin-right: 4px;
+}
+
+.Img3unit .ThreeimageTwo {
+    margin: 0 2px;
+}
+
+.Img3unit .ThreeimageThree {
+    margin-left: 4px;
+}
+
+.Img3unit .ThreeimageOne img,.Img3unit .ThreeimageTwo img,.Img3unit .ThreeimageThree img {
+    width: 100%;
+    display: block;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 15px;
+    font-size: 1.5rem;
+}
+
+.forminput {
+    clear: both;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.mbtheme_light .artMainCon {
+    box-shadow: 1px 1px 6px 1px rgba(50,50,50,.2);
+    -webkit-box-shadow: 1px 1px 6px 1px rgba(50,50,50,.2);
+    -moz-shadow: 1px 1px 6px 1px rgba(50,50,50,.2);
+}
